@@ -428,7 +428,7 @@ in the `Accept` HTTP header, the server MUST either:
 
 1. Disregard the `Accept` header and respond with the server's choice of media
    type, indicating this in the `Content-Type` header; OR
-3. Respond with a `406 Not Acceptable` status code and stop processing the
+2. Respond with a `406 Not Acceptable` status code and stop processing the
    request.
 
 A server MUST support requests which accept the `application/json` media type
